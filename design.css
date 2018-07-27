@@ -1,0 +1,165 @@
+html,body{
+	margin:0;
+	padding:0;
+	height: 100%
+	width:100%;
+}
+h2{
+	font-family: sans-serif;
+	font-size: 200%;
+	font-weight: 700;
+	text-decoration: underline;
+	text-align: center;
+	color: #2c2c2c
+}
+p{
+	font-family: cursive;
+	text-align: justify;
+	font-weight:300;
+	line-height: 180%;
+	font-size: 140%
+	color: #2c2c2c
+}
+img{
+	text-align: center;
+	max-width: 100%
+	height:auto;
+	width: auto;
+}
+.intro{
+	height: 100%
+	width:100%;
+	margin: auto;
+	background-image: url(img/sun.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	top: 0;
+
+}
+.intro .inner{
+	text-align: center;
+	
+	
+	vertical-align: middle;
+}
+h1{
+	font-weight: 700
+	font-size:300%;
+	color: #064E40;
+	padding: 2%
+}
+.content p{
+	font-weight: 700
+	font-size:300%;
+	color: #064E40;
+	padding: 2%
+}
+
+/* --- nav style----*/
+
+nav{
+	float: left;
+	padding: 5% 5% 0 0;
+	height: 50px
+}
+nav ul{
+	list-style: none;
+	float: left;
+}
+nav ul li{
+	font-family: cursive;
+	font-size: 120%
+}
+nav ul li a{
+	text-decoration: none;
+	color: #001440
+}
+nav ul li a:hover{
+	text-decoration: underline;
+}
+nav ul,nav:active ul{
+	display: none;
+	top:60px;
+	left: 45px
+	padding: 8px,0;
+	width: 20%
+	z-index:1000;
+}
+nav li{
+	width: 100%
+	padding:8px 0 10px 7px;
+	margin: 0;
+}
+nav:hover ul{
+	position: absolute;
+	display: block;
+}
+#menu-icon{
+	width: 30px;
+	height:20px;
+	background-image: url(img/menu.png) center;
+	margin: 50px 0 0 50px;
+	display: inline-block;
+}
+.left-col{
+	width: 60%;
+	float: left;
+	margin: 4% 0 4% 4%;
+}
+.sidebar{
+	width: 26%;
+	float:left;
+	margin: 4%;
+}
+.one-port{
+	width: 29%;
+	padding: 2%;
+	float: left;
+
+}
+.one-port img:hover{
+	opacity: .6;
+}
+.contact p{
+	text-align: center;
+	letter-spacing: 5px;
+}
+.clearfix{
+	clear: both;
+	height: 3px;
+}
+.pallarex{
+	background: url(img/sunset.jpg) repeat fixed 100%;
+	opacity: .5;
+}
+.pallarex-inner{
+padding: 17%
+}
+.social{
+	list-style-type: none;
+	text-align: center;
+}
+.social li{
+	display: inline;
+}
+
+
+/* media query */
+@media screen and (max-width: 900px){
+
+}
+@media screen and (max-width: 768px){
+	
+}
+@media screen and (max-width: 480px){
+	
+}
+
+/* login page 
+#logbody{
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(img/mar.jpg) ;
+	background-repeat: no-repeat;
+	height: 100%
+	background-size:cover;
+	background-position: center;
+}*/

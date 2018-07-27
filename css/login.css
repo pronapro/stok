@@ -1,0 +1,29 @@
+body{
+background-color: #551B8C;
+}
+.formbody{
+	background-color: #66B447;
+	margin: auto;
+	max-width: 360px;
+	position: relative;
+	z-index: 1;
+	text-align: center;
+
+}
+
+.lab{
+	padding: 5px;
+	color:blue;
+
+
+}
+.input{
+	font-family: "cursive",san-serif;
+	outline: 1;
+	background-color: #ffffff;
+	width: 100%
+	border:0;
+	margin: 0,0,15px;
+	padding: 15px;
+	font-size: 14px;
+}
